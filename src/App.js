@@ -115,6 +115,7 @@ function App() {
         <div className="container w-50 mt-5 text-center result">
           {!nameError && !ageError && !genError && (
             <>
+              <p> your data is submited </p>
               <p>
                 <span>Name :</span> {name}
               </p>
